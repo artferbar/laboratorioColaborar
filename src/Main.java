@@ -19,6 +19,7 @@ public class Main {
                 case 5 -> ejercicio5();
                 case 6 -> ejercicio6();
                 case 7 -> ejercicio7();
+                case 8 -> System.out.println("opción extra añaida");
             }
             opcion = Utiles.introducirNumero("Escribe un numero del 1 al 9 para elegir un ejercicio o 10 para salir: ");
         }
