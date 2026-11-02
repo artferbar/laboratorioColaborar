@@ -41,7 +41,8 @@ public class Main {
         {
             if(numero % i == 0 && i != numero && i != 1) primo = false;
         }
-        Utiles.mostrar(primo ? (numero + " es primo") : (numero + " no es primo"));
+        if(primo) Utiles.mostrar(numero + " es primo");
+        else Utiles.mostrar(numero + " no es primo");
     }
     public static void ejercicio3()
     {
